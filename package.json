@@ -1,0 +1,24 @@
+{
+  "name": "prueba_tec_betatech",
+  "version": "1.0.0",
+  "description": "Prueba tecnica de la empresa BetaTech",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"tsc --watch\"  \"nodemon dist/services/server.js\"",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Wendolyn Dayanna Padilla Vargas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/pg": "^8.6.5",
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.16",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
+  }
+}
